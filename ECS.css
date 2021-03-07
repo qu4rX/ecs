@@ -1,0 +1,270 @@
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+h2, h4, p{
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+.navb{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+#navbar a{
+  color: white;
+}
+#navbar a:hover{
+  color: rgb(204, 197, 197);
+  transition: all 300ms;
+}
+.whereabouts{
+  color: white;
+  display: flex;
+}
+.i2{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* servicess */
+#services{
+  margin: 0 5%;
+}
+#services img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+#col{
+  text-align: center;
+}
+.service-heading{
+  /* margin-left: 3.8%; */
+  margin: 3% auto 0;
+  display: block;
+  width: 16%;
+}
+.serv{
+  margin: 0;
+}
+.service-hr{
+  width: 18%;
+  border: none;
+  border-top: 2px solid rgb(100, 100, 100);
+  margin-bottom: 6%;
+  /* border-width: 5px; */
+}
+
+.service-content{
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.service-content p{
+  width: 40%;
+  margin-left: 25%;
+  text-align: justify;
+}
+
+.service-btn{
+  text-align: center;
+  margin: 3% auto;
+}
+
+/* home */
+#container1{
+  margin-bottom: 0;
+  height: 450px;
+  background-color: #d1f5f0;
+}
+#container1 h1{
+  margin-top: 10%;
+}
+#container1 button{
+  margin-top: 50px;
+}
+
+/* about */
+.sou{
+  padding-top: 14px;
+  margin-bottom: 10px;
+}
+.souvik{
+  display: flex;
+  margin: 2% 5%;
+}
+.souvik-text{
+  width: 40%;
+  background-color: rgb(155 182 235 / 45%);
+  border-radius: 1%;
+  text-align: left;
+}
+.souvik-img{
+  width: 50%;
+  margin-left: 3%;
+}
+.souvik-heading{
+  text-align: center;
+  margin: 3% auto 10px;
+}
+.souvik-hr{
+  width: 18%;
+  border: none;
+  border-top: 2px solid rgb(100, 100, 100);
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+/* partners */
+.partner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.partner-heading{
+  text-align: center;
+  margin-top: 40px;
+}
+.partition{
+  height: 200px;
+  width: 1px;
+  background-color: rgb(100, 100, 100);
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.partner-hr{
+  width: 24%;
+  border: none;
+  border-top: 2px solid rgb(100, 100, 100);
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+/* review */
+.carous{
+  background-color: rgb(204, 238, 204);
+  padding-top: 14px;
+}
+.review-heading{
+  text-align: center;
+  margin: 3% auto 10px;
+}
+.review-hr{
+  width: 24%;
+  border: none;
+  border-top: 2px solid rgb(100, 100, 100);
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+#carousel-content{
+  height: 300px;
+  text-align: center;
+}
+#carousel-content p{
+  margin-top: 3%;
+  margin-bottom: 0;
+}
+.review-img{
+  /* position: absolute; */
+  /* top: 60px; */
+  position: relative;
+  z-index: 1;
+  width: 5%;
+  /* left: 45%; */
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  /* margin-bottom: 20px; */
+}
+
+
+
+/* footer */
+.footer{
+  display: flex;
+  background-color: #343a40;
+  color: white;
+  padding: 20px 5px;
+  /* height: 200px; */
+}
+.footer-logo{
+  width: 25%;
+}
+.footer-details{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-details h4{
+  font-size: 1rem;
+}
+.footer-details p{
+  font-size: 0.8rem;
+}
+.socials{
+
+  display: flex;
+}
+.socials i{
+  padding: 5px 10px 0 0;
+}
+.socials a{
+  text-decoration: none;
+  color: white;
+}
+.socials a:hover{
+  color: rgb(180, 178, 178);
+}
+.copy p{
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 0.7rem;
+}
+
+/* goToTop */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(53, 66, 243); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(28, 129, 36); /* Add a dark-grey background on hover */
+  
+}
+
+
+/* mediaQuery */
+@media only screen and (max-width: 500px){
+  .partner{
+
+  }
+}
+
